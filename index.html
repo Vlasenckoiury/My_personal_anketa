@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Анкета</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="info">
+                <img src="avatar.jpg" width="250" alt="Тут моя фотка"
+                class="avatar"/>
+
+                <div class="info-text">
+                    <h1>Власенко Юрий</h1>
+                    <p>Я начинающий разработчик</p>
+                    <d>Пишу на языке программирования: <strong>Python, JavaScript</strong>
+                
+                    <h4>Мои социальные сети</h4>
+                        <a href="https://instagram.com/iuriivlasenko52" target="_blank">Instagram</a>
+                        |
+                        <a href="https://vk.com/yuryvlasenko" target="_blank">VK</a>
+                </div>
+            </div>
+
+            <div class="card bg-yellow">
+                <h2>Мои Скилы</h2>
+                <ol class="list">
+                    <li>PostgreSql</li>
+                    <li>Django</li>
+                    <li>FastAPI</li>
+                    <li>TelegramBot</li>
+                </ol>
+            </div>
+
+            <div class="card bg-green">
+                <h2>Опыт работы</h2>
+                <table class="table">
+                    <tr>
+                        <th>Компания</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                    <tr>
+                        <td>Overone</td>
+                        <td>Students</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>Overone</td>
+                        <td>Junior developer</td>
+                        <td>2022 - 2023</td>
+                    </tr>
+                    <tr>
+                        <td>EPAM</td>
+                        <td>JDATA Science</td>
+                        <td>2017 - 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Apple</td>
+                        <td>Timlead</td>
+                        <td>2023 - now</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="card bg-red">
+                <h2>Мои проекты</h2>
+                <ul class="link-list">
+                    <li>
+                        <a href="https://github.com/Vlasenckoiury/Random_generation" target="_blank">Генерация данных</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Vlasenckoiury/My_anketa" target="_blank">Персональная форма данных</a>
+                    </li>
+                </ul>
+            </div>
+
+            <hr noshade color="blue">
+
+            <div class="contact" >
+            <h2>Связаться со мной</h2>
+                <form action="/">
+                    <div class="row">
+                        <div class="form-group">
+                        <label for="name">Ваше Имя:</label>
+                        <input type="text" id="name" placeholder="Введите Имя">
+                        </div>
+
+                        <div class="form-group">    
+                            <label for="email">Ваше Email:</label>
+                            <input type="email" id="email" placeholder="Введите Email">
+                        </div>
+                    </div>
+                    
+                    <div class = messenger>
+                        <div class="form-group">
+                            <label for="text">Ваше сообщение:</label>
+                            <br>
+                            <textarea id="text" rows="4" cols="25"></textarea>
+                            <br>
+                        </div>
+                    </div>
+
+                    <input class="btn" type="submit">
+                </form>
+            </div>
+            <div class="position">
+                <div class="box"></div>
+            </div>
+        </div>
+        <div style="margin-bottom: 100px;"></div>
+    </body>
+</html>
